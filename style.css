@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+body{
+    color: #222;
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+    width: 100%;
+    font-size: 1rem; /* base relativa */
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+a:hover{
+    color: #ca3c3f;
+}
+header{
+    width: auto;
+    text-align: center;
+    padding: 0;
+    margin-top: 5vh; /* relativo à viewport */
+}
+nav.menu{
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.menu-links{
+    list-style: none;
+    padding: 0;
+}
+section.banner{
+    width: 100%;
+    text-align: center;
+}
+.banner p{
+    font-size: 2.5rem; /* relativo à fonte */
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.botao{
+    border: 1px solid #333;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    font-size: 1.25rem;
+}
+.banner img{
+    width: 90%;
+}
+.coluna{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+section.cardapio{
+    box-sizing: border-box;
+    border-top: 1px dashed #999;
+    width: 100%;
+    margin: auto;
+    max-width: 70vw;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 5vh 2vw 2vh 2vw;
+}
+.cardapio-categoria{
+    text-align: left;
+    color: #ca3c3f;
+    font-size: 1.4rem;
+    margin-top: 5vh;
+}
+.cardapio-item{
+    padding-top: 2vh;
+    text-align: left;
+    width: 100%;
+}
+.cardapio-nome{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cardapio-preco{
+    font-size: 0.9rem;
+    color: #ca3c3f;
+}
+.cardapio-descricao{
+    font-size: 0.9rem;
+    color: #999;
+}
+footer{
+    margin-top: 10vh;
+    text-align: center;
+    padding: 5vh;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #333;
+}
+
+.link-whatsapp img{
+    height: 6vh;
+    position: fixed;
+    right: 2vw;
+    bottom: 2vh;
+}
+
+@media (max-width:900px){
+    .coluna{
+        width: 100%;
+        vertical-align: middle;
+        margin-top: 3vh;
+    }
+    .banner p{
+        font-size: 1.6rem;
+        text-align: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
